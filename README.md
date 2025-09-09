@@ -30,18 +30,31 @@ The framework demonstrates a step towards **Artificial General Intelligence (AGI
 
 ## 📂 Project Structure
 ├── app/ # Streamlit dashboards & visualization
+
 ├── core/ # Core agent implementations
+
 │ ├── planner.py
+
 │ ├── codegen.py
+
 │ ├── training.py
+
 │ ├── evaluator.py
+
 │ ├── evolver.py
+
 │ ├── memory.py
+
 │ └── reflexion.py
+
 ├── models/ # Generated model architectures
+
 ├── data/ # Datasets (MNIST, CIFAR-10)
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project documentation
+
 └── main.py # Entry point to run the system
 
 
@@ -52,20 +65,20 @@ The framework demonstrates a step towards **Artificial General Intelligence (AGI
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
-## Create a virtual environment (recommended)
+2. **Create a virtual environment (recommended)**
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\\Scripts\\activate    # On Windows
 
-## Install dependencies
+3. **Install dependencies**
 pip install -r requirements.txt
 
-📊 Results
+## 📊 Results
 Successfully evolved CNN and FC architectures.
 Achieved high accuracy on MNIST and promising results on CIFAR-10.
 Demonstrated rapid adaptation of models through meta-learning.
 
-Contribution & Future Work
+## Contribution & Future Work
 Scale to larger datasets (ImageNet, multimodal data).
 Introduce pooling, BatchNorm, and dropout layers in search space.
 Multi-objective optimization (accuracy vs FLOPs/latency).
