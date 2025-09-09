@@ -66,20 +66,27 @@ The framework demonstrates a step towards **Artificial General Intelligence (AGI
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
 2. **Create a virtual environment (recommended)**
+   
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\\Scripts\\activate    # On Windows
 
-3. **Install dependencies**
+4. **Install dependencies**
+   
 pip install -r requirements.txt
 
 ## 📊 Results
 Successfully evolved CNN and FC architectures.
+
 Achieved high accuracy on MNIST and promising results on CIFAR-10.
+
 Demonstrated rapid adaptation of models through meta-learning.
 
 ## Contribution & Future Work
 Scale to larger datasets (ImageNet, multimodal data).
+
 Introduce pooling, BatchNorm, and dropout layers in search space.
+
 Multi-objective optimization (accuracy vs FLOPs/latency).
+
 Cloud-based distributed orchestration for faster evolution.
