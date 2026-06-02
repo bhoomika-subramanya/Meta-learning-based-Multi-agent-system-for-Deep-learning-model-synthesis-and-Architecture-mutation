@@ -56,18 +56,17 @@ The framework demonstrates how multiple AI agents can work together to perform N
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 Meta-Learning-Multi-Agent-System/
 │
-├── app.py                 # Main application containing agent implementations
-├── data/                  # Dataset storage (downloaded automatically)
-├── models/                # Generated neural network architectures
-├── results/               # Evaluation outputs and logs
-├── README.md              # Project documentation
-│
-└── requirements.txt       # Project dependencies
+├── data/                 # Dataset storage
+├── images/               # Architecture diagrams and screenshots
+├── app.py                # Main application
+├── requirements.txt      # Dependencies
+├── README.md             # Documentation
+└── .gitignore            # Ignored files and folders
 ```
 
 ---
