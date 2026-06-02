@@ -149,6 +149,8 @@ The process continues iteratively until high-performing neural architectures are
 
 ## 📊 Results
 
+![Results](images/results.png)
+
 ### Achievements
 
 * Successfully generated deep learning architectures automatically.
