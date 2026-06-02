@@ -71,6 +71,10 @@ Meta-Learning-Multi-Agent-System/
 ```
 
 ---
+## System Architecture
+
+![Architecture](images/architecture.png)
+
 
 ## 🚀 Installation & Setup
 
